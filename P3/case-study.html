@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="UX/UI Design Case Study: Documentor App - Simplifying document acquisition for international students">
+    <title>Documentor App: Reducing Document Acquisition Stress by 85% | UX/UI Case Study</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/case-study.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="dark-theme case-study-page">
+    <div class="cursor-follow"></div>
+    <div class="noise-overlay"></div>
+    
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" aria-label="Home page - Kashfi Logo">
+                    <h1>K.</h1>
+                </a>
+            </div>
+            
+            <!-- Checkbox hack for CSS-only mobile menu toggle -->
+            <input type="checkbox" id="menu-checkbox" aria-label="Toggle navigation menu">
+            <label for="menu-checkbox" class="menu-toggle">
+                <span class="visually-hidden">Toggle menu</span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <!-- Dark overlay for mobile menu background -->
+            <div class="menu-overlay" aria-hidden="true"></div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html" class="active">Projects</a></li>
+                    <li><a href="index.html#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="case-study-hero" id="hero" aria-labelledby="app-title">
+            <div class="container">
+                <div class="case-study-intro">
+                    <header>
+                        <span class="project-badge" role="doc-subtitle">UX Design Case Study</span>
+                    </header>
+                    
+                    <h1 id="app-title" class="glitch-text" data-text="Documentor App">Documentor App</h1>
+                    
+                    <h2 class="subtitle">85% Less Paperwork. 100% More Progress.</h2>
+                    
+                    <p class="lead">A UX case study showcasing how I simplified complex document acquisition processes for international students through research-driven microinteractions and cognitive load reduction.</p>
+                    
+                    <aside class="skills-container">
+                        <div class="skills-group">
+                            <h3>Research Methods</h3>
+                            <ul class="skills-list">
+                                <li>45+ User Interviews</li>
+                                <li>12 Usability Tests</li>
+                                <li>Heuristic Evaluation</li>
+                                <li>Cognitive Walkthrough</li>
+                                <li>Affinity Mapping</li>
+                            </ul>
+                        </div>
+                        <div class="skills-group">
+                            <h3>Design Skills</h3>
+                            <ul class="skills-list">
+                                <li>Information Architecture</li>
+                                <li>Microinteraction Design</li>
+                                <li>User Flow Design</li>
+                                <li>Figma Prototyping</li>
+                                <li>Iterative Wireframing</li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section class="case-study-section" id="overview">
+            <div class="container">
+                <header class="section-header">
+                    <div class="section-number">01</div>
+                    <h2>App Overview</h2>
+                </header>
+
+                <div class="overview-container">
+                    <article class="overview-text">
+                        <p><strong>Problem:</strong> International students face cognitive overload during document processes, leading to stress and errors.</p>
+                        
+                        <p><strong>Solution:</strong> A micro-task framework breaking complex procedures into manageable steps with visual guidance, reducing task completion time by 85%.</p>
+                    </article>
+                    
+                    <aside class="overview-image">
+                        <div class="app-preview">
+                            <img src="./images/App.png" alt="Documentor App interface showing micro-task breakdown" class="app-preview-img" width="600" height="500">
+                        </div>
+                    </aside>
+                </div>
+
+                <div class="project-stats-row">
+                    <!-- Stats Card 1: My Role (Most important) -->
+                    <div class="stats-item">
+                        <div class="stats-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                        </div>
+                        <div class="stats-content">
+                            <h3 class="stats-label">My Role</h3>
+                            <p class="stats-value">UX Lead Designer</p>
+                            <p class="stats-subtext">Team of 3</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Stats Card 2: Target Users -->
+                    <div class="stats-item">
+                        <div class="stats-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                        <div class="stats-content">
+                            <h3 class="stats-label">Target Users</h3>
+                            <p class="stats-value">International Students</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Stats Card 3: Timeline -->
+                    <div class="stats-item">
+                        <div class="stats-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                        </div>
+                        <div class="stats-content">
+                            <h3 class="stats-label">Timeline</h3>
+                            <p class="stats-value">8 Weeks</p>
+                        </div>
+                    </div>
+
+                    <!-- Stats Card 4: Platform -->
+                    <div class="stats-item">
+                        <div class="stats-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                        </div>
+                        <div class="stats-content">
+                            <h3 class="stats-label">Platform</h3>
+                            <p class="stats-value">iOS & Android</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="overview-summary">
+                    <h3>Question</h3>
+                    <div class="challenge-statement">
+                        <p>How might we help international students navigate the complex process of obtaining essential documents in a new country to reduce stress and confusion?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="case-study-section" id="research">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-number">02</div>
+                    <h2>Research & Insights</h2>
+                </div>
+                
+                <div class="research-content">
+                    <div class="research-text reveal-element">
+                        <h3>Research Methodology</h3>
+                        <div class="research-section-cards">
+                            <!-- Primary Research Card -->
+                            <article class="research-item primary">
+                                <div class="research-item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                                </div>
+                                <h4 class="research-item-title">Primary Research</h4>
+                                <p class="research-item-description">Conducted <strong>45 in-depth interviews</strong> with international students to understand their pain points and needs when obtaining essential documents.</p>
+                                <ul class="research-item-list">
+                                    <li>International students from 12+ countries</li>
+                                    <li>Mix of undergraduate and graduate students</li>
+                                    <li>Focus on first-year experiences and challenges</li>
+                                </ul>
+                            </article>
+
+                            <!-- Secondary Research Card -->
+                            <article class="research-item secondary">
+                                <div class="research-item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                                </div>
+                                <h4 class="research-item-title">Secondary Research</h4>
+                                <p class="research-item-description">Analyzed academic papers, government reports, and student forums to understand the wider context of international student challenges.</p>
+                                <ul class="research-item-list">
+                                    <li>Government policy analysis</li>
+                                    <li>Education institution practices</li>
+                                    <li>Statistical trends in international education</li>
+                                </ul>
+                            </article>
+                        </div>
+
+                        <div class="key-research-findings">
+                            <h3>Key Research Findings</h3>
+
+                            <div class="research-evidence">
+                                <div class="evidence-card reveal-element" data-delay="500">
+                                    <div class="card-image">
+                                        <img src="./images/PainPoints_Example.png" alt="Affinity diagram showing cognitive load pain points" width="400" height="300">
+                                    </div>
+                                    <div class="card-content">
+                                        <h4>Overwhelming Content Structures</h4>
+                                        <p>The SIN application interface displays  long, unstructured text blocks with minimal hierarchy. This creates  cognitive overload and causes decision paralysis—especially for  international users.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="evidence-card reveal-element" data-delay="600">
+                                    <div class="card-image">
+                                        <img src="./images/PainPoints_Example2.png" alt="BCID form page with annotations showing lack of user guidance" width="400" height="300">
+                                    </div>
+                                    <div class="card-content">
+                                        <h4>Absence of Task Progression</h4>
+                                        <p>The BCID form lacks progress feedback, visual flow, or task indicators. Users are left unsure of where they are or what steps follow—violating basic usability heuristics.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="findings-grid">
+                                <div class="finding-card reveal-element" data-delay="100">
+                                    <div class="finding-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                                    </div>
+                                    <h4>Cognitive Overload</h4>
+                                    <p>Users experienced information paralysis when presented with complex document requirements all at once.</p>
+                                </div>
+                                
+                                <div class="finding-card reveal-element" data-delay="200">
+                                    <div class="finding-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                                    </div>
+                                    <h4>Mental Model Mismatch</h4>
+                                    <p>Students' expectations of document processes didn't match actual bureaucratic requirements, creating anxiety.</p>
+                                </div>
+                                
+                                <div class="finding-card reveal-element" data-delay="300">
+                                    <div class="finding-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                                    </div>
+                                    <h4>Progress Uncertainty</h4>
+                                    <p>Lack of visual progress tracking created persistent uncertainty about application status and next steps.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="findings-container">
+                        <h2 class="findings-title">Identified Pain Point Clusters</h2>
+                        <div class="issue-grid">
+                            <!-- Housing Issues Card -->
+                            <div class="issue-card housing-issues">
+                                <h3 class="issue-heading">Housing Challenges</h3>
+                                <ul class="issue-list">
+                                    <li class="issue-item">Difficulty securing housing before arrival</li>
+                                    <li class="issue-item">Campus housing waitlists and uncertainty</li>
+                                    <li class="issue-item">Navigating unfamiliar rental platforms (Craigslist, Marketplace)</li>
+                                    <li class="issue-item">Unexpected high costs compared to expectations</li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Document Issues Card -->
+                            <div class="issue-card document-issues">
+                                <h3 class="issue-heading">Document Acquisition</h3>
+                                <ul class="issue-list">
+                                    <li class="issue-item">Most documents required in-person collection</li>
+                                    <li class="issue-item">Confusion about which documents were needed</li>
+                                    <li class="issue-item">Multiple locations for different documents (BCID, SIN, etc.)</li>
+                                    <li class="issue-item">Lack of guidance on proper document ordering</li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Employment Issues Card -->
+                            <div class="issue-card employment-issues">
+                                <h3 class="issue-heading">Employment Barriers</h3>
+                                <ul class="issue-list">
+                                    <li class="issue-item">Work permit delays and restrictions</li>
+                                    <li class="issue-item">Unfamiliarity with local job application processes</li>
+                                    <li class="issue-item">Limited job opportunities and rising competition</li>
+                                    <li class="issue-item">Differences in resume/CV expectations from home countries</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="case-study-section" id="sketches">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-number">03</div>
+                    <h2>Design Process</h2>
+                </div>
+                
+                <div class="design-process-intro">
+                    <p>My design process moved from problem discovery to solution development through sketches, turning research into a user-friendly interface that simplifies information and reduces cognitive load.</p>
+                </div>
+                <div class="design-process-steps">
+                    <div class="process-step">
+                        <div class="step-visual">
+                            <img src="./images/Sketch-1.png" alt="Initial concept sketches exploring information chunking ideas" width="450" height="350">
+                        </div>
+                        <div class="step-content">
+                            <h3>Initial Exploration</h3>
+                            <p>Rapid concept sketches exploring different approaches to breaking down complex document processes into manageable chunks.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="step-visual">
+                            <img src="./images/Sketch-2.png" alt="User flow diagrams and process mapping sketches" width="450" height="350">
+                        </div>
+                        <div class="step-content">
+                            <h3>Task Flow Development</h3>
+                            <p>Structured user journey mapping to visualize the document acquisition process and identify key simplification opportunities.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="step-visual">
+                            <img src="./images/Sketch-3.png" alt="Refined interface sketches showing progress tracking and micro-task concepts" width="450" height="350">
+                        </div>
+                        <div class="step-content">
+                            <h3>Solution Refinement</h3>
+                            <p>Final concept sketches incorporating research-driven micro-task framework and visual progress indicators to reduce cognitive load.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!-- Design Iterations Section -->
+        <section class="case-study-section" id="design-iterations">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-number">04</div>
+                    <h2>Design Iterations</h2>
+                </div>
+                
+                <div class="iterations-intro">
+                    <p>Through multiple iterations, I refined the interface using user feedback to improve structure, clarity, and usability while keeping it simple and intuitive.</p>
+                </div>
+                
+                <div class="iterations-timeline">
+                    <!-- Timeline markers -->
+                    <div class="timeline-track">
+                        <div class="timeline-numbers">
+                            <span class="number-marker">1</span>
+                            <span class="number-marker">2</span>
+                            <span class="number-marker">3</span>
+                            <span class="number-marker">4</span>
+                            <span class="number-marker">5</span>
+                            <span class="number-marker">6</span>
+                                </div>
+                            </div>
+                    
+                    <!-- Iteration cards -->
+                    <div class="iterations-gallery">
+                        <div class="iteration-card">
+                            <img src="./images/Iteration-1.png" alt="First design iteration" width="300" height="250">
+                        </div>
+                        <div class="iteration-card">
+                            <img src="./images/Iteration-2.png" alt="Second design iteration" width="300" height="250">
+                            </div>
+                        <div class="iteration-card">
+                            <img src="./images/Iteration-3.png" alt="Third design iteration" width="300" height="250">
+                                </div>
+                        <div class="iteration-card">
+                            <img src="./images/Iteration-4.png" alt="Fourth design iteration" width="300" height="250">
+                            </div>
+                        <div class="iteration-card">
+                            <img src="./images/Iteration-5.png" alt="Fifth design iteration" width="300" height="250">
+                        </div>
+                        <div class="iteration-card">
+                            <img src="./images/Iteration-6.png" alt="Sixth design iteration" width="300" height="250">
+                        </div>
+                    </div>
+                    
+                    <!-- Final Iteration Section -->
+                    <div class="final-iteration">
+                        <h3>Final Iteration</h3>
+                        
+                        <div class="process-step">
+                            <div class="step-visual">
+                                <img src="./images/Iteration-7.png" alt="Final iteration showing the complete interface" width="450" height="350">
+                            </div>
+                            <div class="step-content">
+                                <p>The culmination of our iterative process resulted in a clean, intuitive interface that significantly reduces cognitive load while maintaining essential functionality.</p>
+                                
+                                <ul class="final-improvements">
+                                    <li>Simplified navigation structure</li>
+                                    <li>Clear visual hierarchy</li>
+                                    <li>Enhanced user feedback</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="case-study-section" id="solution">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-number">05</div>
+                    <h2>Final Solution</h2>
+                </div>
+                
+                <div class="solution-description reveal-element">
+                    <p class="lead-text">The Documentor app addresses key pain points discovered during research through two main features: micro-task management and visual progress tracking.</p>
+                </div>
+                
+                <div class="app-showcase reveal-element">
+                    <div class="static-mockup reveal-element" data-delay="100">
+                        <img src="./images/App_Stacked.png" alt="Documentor app on multiple devices" class="static-img" width="600" height="400">
+                    </div>
+                    
+                    <div class="welcome-screen reveal-element" data-delay="200">
+                        <div class="phone-mockup">
+                            <div class="phone-frame">
+                                <img src="./images/Feature-Highlight.png" alt="Documentor app welcome screen" width="350" height="650">
+                            </div>
+                        </div>
+                        <div class="welcome-details">
+                            <h3>Welcome Experience</h3>
+                            <p>The app guides users through the document acquisition process with a clear, step-by-step approach.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="key-features-section reveal-element" data-delay="300">
+                    <h3 class="section-title">Key Features</h3>
+                    
+                    <div class="features-gallery">
+                        <div class="feature-images">
+                            <div class="feature-image-wrapper primary-feature">
+                                <img src="./images/Feature-1.png" alt="Progress tracker feature" class="feature-img" width="350" height="300">
+                                <div class="feature-badge">Core Feature</div>
+                            </div>
+                            <div class="feature-image-wrapper accent-feature">
+                                <img src="./images/Feature-Highlight.png" alt="Micro-task feature" class="feature-img" width="350" height="300">
+                                <div class="feature-badge">Key Innovation</div>
+                            </div>
+                        </div>
+                        
+                        <div class="features-details">
+                            <div class="feature-info primary-feature">
+                                <h4 class="feature-title">Progress Tracker</h4>
+                    <p>Visual indicators help users track their progress through the document acquisition journey, providing a sense of accomplishment and clarity about next steps.</p>
+                                <ul class="feature-highlights">
+                                    <li><span class="highlight-marker">✓</span> Status visualization</li>
+                                    <li><span class="highlight-marker">✓</span> Milestone tracking</li>
+                                    <li><span class="highlight-marker">✓</span> Completion indicators</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature-info accent-feature">
+                                <h4 class="feature-title">Micro-Task Management</h4>
+                                <p>Breaking down complex document processes into smaller, manageable tasks helps reduce overwhelm and provides clear guidance on what to do next.</p>
+                                <ul class="feature-highlights">
+                                    <li><span class="highlight-marker">✓</span> Step-by-step guidance</li>
+                                    <li><span class="highlight-marker">✓</span> Simplified instructions</li>
+                                    <li><span class="highlight-marker">✓</span> Task prioritization</li>
+                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="microtasks-showcase reveal-element" data-delay="500">
+                    <h3 class="section-title">Breaking Down Complex Processes</h3>
+                    <p class="microtasks-description">Breaking down main tasks into micro-tasks and using visual guides reduce confusion and frustration, making the process more manageable for users.</p>
+                    <div class="microtasks-images">
+                        <div class="microtask-item">
+                            <video autoplay loop muted playsinline class="microtask-video" width="500" height="300">
+                                <source src="./Videos/Micro-Task-Management.mp4" type="video/mp4">
+                                <!-- Your browser does not support the video tag. -->
+                            </video>
+                        </div>
+                        <div class="microtask-item">
+                            <img src="./images/Micro-Task-1.png" alt="Micro-task example 1" class="microtask-img" width="500" height="300">
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="impact-metrics reveal-element" data-delay="600">
+                    <h3 class="section-title">Impact & Results</h3>
+
+                    <!-- Intro to Usability Testing -->
+                    <div class="usability-testing-intro">
+                        <h4 class="testing-title">Usability Testing Results</h4>
+                        <p>Data collected from 12 real users over a 2-week usability testing period.</p>
+                    </div>
+
+                    <!-- Container for all metric circles -->
+                    <div class="impact-metrics-container">
+
+                        <!-- Metric 1: User Satisfaction -->
+                        <div class="impact-metric">
+                            <div class="metric-circle">
+                                <!-- Semantic SVG ring chart remains (optional) -->
+                                <svg viewBox="0 0 36 36">
+                                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        fill="none" stroke="rgba(255, 255, 255, 0.1)" stroke-width="3"/>
+                                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        fill="none" stroke="var(--color-primary)" stroke-width="3" stroke-dasharray="91.6, 100"/>
+                                </svg>
+                                <!-- Use real numbers instead of % -->
+                                <div class="metric-number">11<span>/12 users</span></div>
+                            </div>
+                            <div class="metric-label">Reported Satisfaction</div>
+                            <div class="metric-details-popup">
+                                <p>11 out of 12 users gave a satisfaction rating of 9 or above during post-session surveys.</p>
+                                <p>Positive feedback was mostly related to clear guidance and reduced stress.</p>
+                            </div>
+                        </div>
+
+                        <!-- Metric 2: Task Completion -->
+                        <div class="impact-metric">
+                            <div class="metric-circle">
+                                <svg viewBox="0 0 36 36">
+                                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        fill="none" stroke="rgba(255, 255, 255, 0.1)" stroke-width="3"/>
+                                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        fill="none" stroke="var(--color-accent)" stroke-width="3" stroke-dasharray="85, 100"/>
+                                </svg>
+                                <div class="metric-number">34<span>/40 tasks</span></div>
+                            </div>
+                            <div class="metric-label">Successful Submissions</div>
+                            <div class="metric-details-popup">
+                                <p>Task completion improved after the redesign. 34 out of 40 tasks were completed successfully with no external help.</p>
+                                <p><strong>Before:</strong> 18/40 successful<br><strong>After:</strong> 34/40 successful</p>
+                            </div>
+                        </div>
+
+                        <!-- Metric 3: Reduced Errors -->
+                        <div class="impact-metric">
+                            <div class="metric-circle">
+                                <svg viewBox="0 0 36 36">
+                                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        fill="none" stroke="rgba(255, 255, 255, 0.1)" stroke-width="3"/>
+                                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        fill="none" stroke="rgb(236, 72, 153)" stroke-width="3" stroke-dasharray="70, 100"/>
+                                </svg>
+                                <div class="metric-number">7<span>/10 users</span></div>
+                            </div>
+                            <div class="metric-label">Fewer Errors Reported</div>
+                            <div class="metric-details-popup">
+                                <p>70% reduction in confusion and errors — 7 of 10 users submitted tasks without making form-related mistakes.</p>
+                                <p>Attributed to the introduction of a checklist, progress indicators, and contextual tooltips.</p>
+                                    </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                <!-- Graduate Quotes Section -->
+<div class="graduate-quotes reveal-element" data-delay="700">
+    <h3>Graduate Feedback</h3>
+    <div class="quotes-container">
+      <blockquote class="user-quote">
+        <p>"The progress tracker helped me understand exactly what I needed for my study permit. I didn't miss any documents which saved me weeks of processing time."</p>
+        <footer>
+          <cite>— Mei L., Graduate Student from China</cite>
+        </footer>
+                        </blockquote>
+      
+      <blockquote class="user-quote">
+        <p>"Breaking down complex tasks into smaller steps made the entire process less overwhelming. I wish all government services worked this way."</p>
+        <footer>
+          <cite>— Rahul S., Undergraduate from India</cite>
+        </footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="case-study-section" id="conclusion">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-number">06</div>
+                    <h2>Reflections & Learnings</h2>
+                </div>
+                
+                <div class="designer-note reveal-element">
+                    <div class="note-content">
+                        <p>This project taught me how powerful simplicity can be. By breaking down overwhelming information and focusing on clarity and progress, I made the process easier for international students. Continuous feedback helped shape real solutions to real problems.</p>
+                        
+                        <p><strong>If I had more time:</strong> I would personalize document flows by country and build a space for students to support each other.</p>
+                                                <div class="signature">— Kashfi, UX Designer</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">
+                        <h2>K.</h2>
+                        <span>UX/UI Designer</span>
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="./index.html#projects-section">Projects</a></li>
+                        <li><a href="./index.html#about-section">About</a></li>
+                        <li><a href="./index.html#contact-section">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/md-kashfi-or-rashid-pranta-bbb51622a/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="https://www.instagram.com/kashfi_005?igsh=Nmpxanp5aG85bjYy" target="_blank" class="social-link" aria-label="Instagram Profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kashfi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
